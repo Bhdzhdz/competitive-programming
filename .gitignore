@@ -1,4 +1,5 @@
+
+# Old USACO input/output files
 *.in
 *.out
 
-build_debug

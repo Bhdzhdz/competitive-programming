@@ -1,0 +1,13 @@
+{
+  "crates": [
+    {
+        "root_module": "templates/main.rs",
+        "edition": "2021",
+        "deps": [],
+        "source": {
+          "include_dirs": ["*.rs", "*/*.rs", "**/*.rs" ],
+          "exclude_dirs": []
+        }
+    }
+  ]
+}
