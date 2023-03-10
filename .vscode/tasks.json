@@ -43,7 +43,8 @@
     {
       "label": "Delete executable",
       "type": "shell",
-      "command": "rm ${fileDirname}/${fileBasenameNoExtension}",
+      "command": "rm",
+      "args": ["${fileDirname}/${fileBasenameNoExtension}"],
       "problemMatcher": [],
     }
   ],
